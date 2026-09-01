@@ -1,0 +1,21 @@
+[
+  {
+    "id": "strong-structuring",
+    "label": "Strong — potential structuring",
+    "expected_flags": [],
+    "narrative": "Harbor Community Bank identified repeated cash deposits by Jordan Avery into fabricated checking account ending 1042 at its Northport, Oregon branches. From January 8 through February 19, 2026, Avery made 18 cash deposits totaling $171,450; 16 deposits ranged from $9,100 to $9,900 and occurred at four branches, often on consecutive business days. On January 22, Avery deposited $9,600 at the Northport Main branch and $9,700 at the River Road branch 47 minutes later. The activity was inconsistent with the account's stated purpose of receiving payroll from a landscaping business, which averaged $4,200 in monthly electronic deposits during the prior six months. Within one business day of 14 cash deposits, funds were transferred to fabricated brokerage account ending 8821. The repeated below-threshold cash deposits across multiple branches, followed by rapid transfers, appear consistent with potential structuring intended to avoid reporting requirements. The bank is reporting $171,450 in suspicious activity for the period January 8 through February 19, 2026."
+  },
+  {
+    "id": "vague-and-thin",
+    "label": "Flawed — vague and thin",
+    "expected_flags": ["5 W's Coverage", "Typology Language", "Specificity", "Length & Density"],
+    "narrative": "The customer engaged in suspicious activity in the account. There were several unusual transactions that did not match the profile. The bank reviewed the activity and determined it should be reported."
+  },
+  {
+    "id": "inconsistent-timeline",
+    "label": "Flawed — inconsistent timeline",
+    "expected_flags": ["Internal Consistency"],
+    "narrative": "Between March 1 and March 15, 2026, Casey Morgan made twelve fabricated cash deposits totaling $94,800 into business account ending 7710 at branches in Mesa, Arizona. Each deposit ranged from $7,500 to $8,400 and the activity appeared consistent with potential structuring. The narrative review states that all twelve deposits occurred before the account was opened on March 20, 2026. It also states that $90,000, representing all deposited funds, was wired to a fabricated overseas beneficiary on March 16. The activity was inconsistent with the stated business purpose of local equipment repair."
+  }
+]
+

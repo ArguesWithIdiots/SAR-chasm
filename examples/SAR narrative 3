@@ -1,0 +1,15 @@
+# States activity differs from normal customer profile/activity without explaining what that means
+
+Pioneer National Bank is filing this SAR on customer Michael Tran, age 42, of Portland, Oregon, regarding suspected laundering of fraud proceeds through rapid movement of funds. Tran maintains personal checking account 58310427, opened on November 18, 2024.
+
+Between July 11, 2026, and August 6, 2026, Tran received seven incoming ACH credits totaling $186,400 from four business entities: Northstar Consulting LLC, Blue Ridge Media LLC, Summit Administrative Services LLC, and Redline Solutions LLC. Individual credits ranged from $18,500 to $34,000. Public business records show the four entities are registered in three different states and do not share common ownership with Tran.
+
+Within 24 to 72 hours of receiving six of the seven ACH credits, Tran initiated six outgoing wire transfers totaling $174,200 to accounts held at two cryptocurrency exchanges. The transfers were initiated through online banking from IP addresses resolving to Portland, Oregon. Prior account activity showed no cryptocurrency-related transfers during the preceding 12 months.
+
+On July 29, 2026, Pioneer National Bank contacted Tran regarding a $31,500 ACH credit received from Summit Administrative Services LLC. Tran stated that the funds represented payment for consulting work but did not provide an invoice, contract, or other documentation supporting the transaction. Tran stated that the subsequent cryptocurrency purchase was for personal investment purposes.
+
+Open-source review identified no apparent employment, ownership, or other business relationship between Tran and the four originating companies. Two of the companies were formed within 90 days of the first ACH credit, and one lists a commercial mail receiving agency as its registered business address.
+
+Pioneer National Bank considers the activity suspicious because Tran received substantial payments from multiple apparently unrelated businesses, provided limited documentation supporting the stated consulting activity, and rapidly transferred most of the funds to cryptocurrency exchanges. The activity is inconsistent with Tran’s known customer profile and historical account activity and may indicate layering or movement of fraud proceeds.
+
+The bank placed the account under enhanced monitoring on August 7, 2026. The account remains open. Account statements, ACH records, wire-transfer records, customer communications, IP logs, and customer due diligence records are available upon request.

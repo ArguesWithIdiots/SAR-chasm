@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="SAR Chasm finds gaps in fabricated SAR narratives and logic.">
+    <title>SAR Chasm</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="SAR Chasm home">
+        <span class="brand-mark" aria-hidden="true">SC</span>
+        <span>SAR Chasm</span>
+      </a>
+      <div class="status" id="apiStatus" aria-live="polite">
+        <span class="status-dot"></span>
+        Checking local setup…
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="eyebrow">Synthetic-data demonstration</div>
+        <h1>SAR Chasm</h1>
+        <p class="hero-tagline">Finding gaps in SAR narratives and logic quicker than you can.</p>
+        <p class="hero-copy">
+          Review the 5 W's, typology language, specificity, consistency, and density—without
+          storing the narrative in this application.
+        </p>
+        <div class="trust-row" aria-label="Application characteristics">
+          <span>Runs on localhost</span>
+          <span>Your OpenAI API key</span>
+          <span>No app database</span>
+        </div>
+      </section>
+
+      <section class="workspace" aria-label="Narrative review workspace">
+        <article class="input-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="step-label">01 / Draft</p>
+              <h2>Narrative input</h2>
+            </div>
+            <button class="text-button" id="clearButton" type="button">Clear</button>
+          </div>
+
+          <div class="privacy-notice" role="note">
+            <span class="notice-icon" aria-hidden="true">!</span>
+            <div>
+              <strong>Fabricated text only.</strong>
+              <p>Do not enter a real SAR, customer information, account identifiers, or confidential case details.</p>
+            </div>
+          </div>
+
+          <label class="field-label" for="narrative">Draft SAR narrative</label>
+          <textarea
+            id="narrative"
+            maxlength="20000"
+            minlength="80"
+            spellcheck="true"
+            placeholder="Paste a fabricated SAR narrative here…"
+          ></textarea>
+
+          <div class="input-meta">
+            <button class="example-button" id="exampleButton" type="button">Load synthetic example</button>
+            <span id="characterCount">0 / 20,000 characters</span>
+          </div>
+
+          <div class="sensitive-warning" id="sensitiveWarning" hidden>
+            Possible sensitive-data patterns were detected. Review the text and use fabricated or masked details only.
+          </div>
+
+          <label class="confirmation">
+            <input id="confirmation" type="checkbox">
+            <span>I confirm this narrative is fabricated and contains no real customer or case data.</span>
+          </label>
+
+          <button class="primary-button" id="analyzeButton" type="button" disabled>
+            <span>Analyze narrative</span>
+            <span aria-hidden="true">→</span>
+          </button>
+          <p class="submission-note">
+            Text is sent directly from this local server to OpenAI and is subject to your OpenAI API data controls.
+          </p>
+        </article>
+
+        <article class="results-panel" id="resultsPanel" aria-live="polite" aria-busy="false">
+          <div class="empty-state" id="emptyState">
+            <div class="score-preview" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <p class="step-label">02 / Scorecard</p>
+            <h2>Your review will appear here.</h2>
+            <p>Each rubric category receives a clear pass or flag with a concise rationale.</p>
+          </div>
+
+          <div class="loading-state" id="loadingState" hidden>
+            <div class="loader" aria-hidden="true"></div>
+            <p class="step-label">Review in progress</p>
+            <h2>Reading the narrative closely…</h2>
+            <p>Checking facts, chronology, specificity, and drafting density.</p>
+          </div>
+
+          <div class="error-state" id="errorState" hidden>
+            <span class="error-mark" aria-hidden="true">!</span>
+            <p class="step-label">Review unavailable</p>
+            <h2>We couldn't create the scorecard.</h2>
+            <p id="errorMessage"></p>
+          </div>
+
+          <div class="scorecard" id="scorecard" hidden>
+            <div class="scorecard-header">
+              <div>
+                <p class="step-label">02 / Scorecard</p>
+                <h2>Quality review</h2>
+              </div>
+              <span class="overall-badge" id="overallBadge"></span>
+            </div>
+            <p class="summary" id="summary"></p>
+            <div class="category-list" id="categoryList"></div>
+            <p class="result-disclaimer" id="resultDisclaimer"></p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Drafting aid only—not legal advice, compliance certification, examiner approval, or a filing determination.</p>
+      <p>v0.1 · Local demonstration</p>
+    </footer>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>

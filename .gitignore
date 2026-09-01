@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+General API testing key
+*.kate-swp
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.DS_Store
