@@ -1,0 +1,132 @@
+Multiple deficiencies - three intended failures across separate categories. Specificity should FLAG because the narrative definitively attributes an external wallet to Northstar Capital Group based only on downstream interaction. Internal Consistency should FLAG because the ten listed incoming transfers total $403,800, not the stated $408,800. Length & Density should FLAG because the narrative devotes substantial space to immaterial routine account activity that does not advance the suspicious-activity analysis. 5 W’s Coverage and Typology Language should PASS.
+
+
+Helix Digital Markets is filing this SAR on customer Evan Brooks, age 42, of Denver, Colorado, regarding suspected money mule or unregistered third-party cryptocurrency activity through individual account 78041625. Brooks opened the account on January 9, 2026. At onboarding, Brooks identified his occupation as a self-employed web developer, reported annual income of approximately $112,000, and stated that the account would be used for personal cryptocurrency investment.
+
+From January through May 2026, Brooks funded the Helix account primarily through a checking account held in his own name at Western Plains Bank. Monthly fiat deposits generally ranged from $2,000 to $6,000. Brooks primarily purchased Bitcoin and Ethereum and occasionally withdrew cryptocurrency to external addresses in amounts below $5,000.
+
+Beginning June 18, 2026, Brooks’s activity increased substantially.
+
+Between June 18 and August 25, 2026, Brooks transferred funds from his Western Plains Bank account to Helix through ten ACH transfers. The narrative states that the ten transfers totaled $408,800.
+
+The transfers were:
+
+June 18: $38,500
+June 25: $42,200
+July 2: $31,750
+July 9: $46,800
+July 16: $29,400
+July 24: $51,300
+August 1: $36,750
+August 8: $44,100
+August 17: $33,400
+August 25: $49,600
+
+Helix identified no direct third-party fiat funding into Brooks’s exchange account during the review period.
+
+Within approximately 24 hours of most of the ACH deposits, Brooks purchased USDC and initiated external cryptocurrency withdrawals. Between June 19 and August 26, 2026, Brooks completed eight external withdrawals totaling approximately $369,900 at the time of transfer:
+
+June 19: approximately $47,200 in USDC to wallet 0x6A41B792ED305C18F467A9201D53B864E70C2915
+June 27: approximately $50,800 in USDC to wallet 0x6A41B792ED305C18F467A9201D53B864E70C2915
+July 10: approximately $35,600 in USDC to wallet 0x9E34A601D857C42B716F309CE284B5D196A74082
+July 25: approximately $41,100 in USDC to wallet 0x6A41B792ED305C18F467A9201D53B864E70C2915
+August 2: approximately $52,900 in USDC to wallet 0x3C87E215B940D61F728A453E109CF67B834D2910
+August 9: approximately $46,800 in USDC to wallet 0x9E34A601D857C42B716F309CE284B5D196A74082
+August 18: approximately $39,400 in USDC to wallet 0x3C87E215B940D61F728A453E109CF67B834D2910
+August 26: approximately $56,100 in USDC to wallet 0x6A41B792ED305C18F467A9201D53B864E70C2915
+
+The difference between fiat funding and cryptocurrency withdrawals was attributable to trading costs, cryptocurrency purchases retained in Brooks’s Helix account, and fiat balances remaining on the platform.
+
+Login and device records showed that Brooks initiated the reviewed activity using devices previously associated with his account and IP addresses primarily geolocating to the Denver metropolitan area. Helix identified no indicators of account takeover.
+
+The three external withdrawal addresses had not appeared in Brooks’s prior account activity.
+
+Blockchain analysis showed that cryptocurrency sent to wallet 0x6A41B792ED305C18F467A9201D53B864E70C2915 was frequently forwarded within approximately one to three hours of receipt. Portions of the funds moved to several additional blockchain addresses.
+
+One downstream address subsequently sent funds to cryptocurrency deposit addresses associated by Helix’s blockchain analytics provider with Northstar Capital Group, an online cryptocurrency investment platform.
+
+Helix identified similar downstream interaction involving funds originating from wallet 0x9E34A601D857C42B716F309CE284B5D196A74082. Portions of those funds moved through an intermediary wallet before reaching cryptocurrency deposit addresses associated with Northstar Capital Group.
+
+Funds withdrawn to wallet 0x3C87E215B940D61F728A453E109CF67B834D2910 were subsequently distributed among several addresses. Helix’s analytics provider identified no sanctions exposure or known illicit-service attribution associated with those transfers during the review period.
+
+On July 29, 2026, Helix contacted Brooks regarding the substantial increase in account funding and repeated external cryptocurrency withdrawals.
+
+Brooks stated that he had recently begun helping acquaintances participate in cryptocurrency investment opportunities. Brooks said several individuals sent funds to his personal Western Plains Bank account because they either did not maintain cryptocurrency exchange accounts or were uncomfortable purchasing cryptocurrency themselves.
+
+Brooks stated that after receiving those funds, he transferred money from his bank account to Helix, purchased USDC, and sent the cryptocurrency to wallet addresses provided by an individual he identified as “Alex Martin.”
+
+Brooks stated that Martin represented Northstar Capital Group and coordinated cryptocurrency investments on behalf of multiple investors.
+
+Brooks said he retained between 2 and 4 percent of certain payments for assisting with the transactions.
+
+Brooks did not provide an employment agreement, investment advisory agreement, customer records, licensing information, or documentation establishing that he was authorized to receive and transmit funds on behalf of Northstar Capital Group or the individuals providing money.
+
+Brooks stated that he had never met Martin in person and communicated primarily through an encrypted messaging application.
+
+Brooks provided screenshots of messages from Martin containing cryptocurrency wallet addresses, expected payment amounts, and instructions regarding which cryptocurrency to purchase.
+
+The messages referred to Northstar Capital Group but did not identify the legal owner or controller of the wallet addresses.
+
+On August 7, 2026, Helix received a fraud-related inquiry from Western Plains Bank concerning Brooks’s recent cryptocurrency funding.
+
+Western Plains advised that Brooks’s checking account had received several incoming transfers from unrelated individuals during the review period.
+
+The bank further advised that one individual who sent Brooks $46,800 reported that the payment was intended for participation in a cryptocurrency investment program promoted through social media. According to the originating institution, the sender later became unable to withdraw purported investment returns and reported the transaction as fraudulent.
+
+Helix has not independently verified the sender’s allegation and has not received fraud notifications concerning the other individuals who reportedly provided funds to Brooks.
+
+Helix reviewed publicly available information concerning Northstar Capital Group. The company maintained a website advertising cryptocurrency investment services and claimed to provide automated trading and digital-asset portfolio management.
+
+The website identified no clearly verifiable U.S. headquarters. Helix identified no registration associated with Brooks as an investment adviser, broker, or money transmitter.
+
+Helix did not identify sanctions matches involving Brooks or Northstar Capital Group during the review.
+
+Historical review of Brooks’s Western Plains Bank activity showed that before June 2026, his account was generally used for personal and self-employment expenses.
+
+Brooks regularly received payments from web-development clients ranging from approximately $1,500 to $7,000. He also made estimated tax payments and recurring payments for software and telecommunications services.
+
+Historical activity included a $14.99 monthly streaming subscription, a $12.50 cloud-storage subscription, recurring purchases at two grocery stores, a $74 monthly cellular telephone payment, a $49.99 monthly fitness-center membership, quarterly automobile insurance payments, and recurring residential utility payments.
+
+Brooks also regularly purchased gasoline at stations in the Denver metropolitan area. Individual fuel purchases generally ranged from $35 to $75.
+
+The account showed periodic restaurant transactions ranging from approximately $20 to $110, including purchases at coffee shops, casual restaurants, and food-delivery services.
+
+Brooks made recurring purchases from online retailers. These transactions included household supplies, computer accessories, clothing, books, and miscellaneous consumer items.
+
+The account also showed a recurring $8.99 music-streaming subscription and a $6.99 digital-news subscription.
+
+In March 2026, Brooks made a $186 purchase at an electronics retailer. In April, he made a $72 purchase at an office-supply store and a $44 purchase at a hardware store.
+
+Brooks made several parking payments in downtown Denver during February and March. The payments ranged from $6 to $18.
+
+He also made two purchases at an airport restaurant in April and paid $36 for airport parking during the same period.
+
+Brooks made a $128 hotel payment in Colorado Springs in May and several restaurant and fuel purchases associated with the trip.
+
+The reviewed routine transactions did not appear related to the suspicious cryptocurrency activity.
+
+Helix’s historical review nevertheless established that the large third-party-funded cryptocurrency activity represented a substantial change from Brooks’s prior financial behavior.
+
+On August 19, 2026, Helix contacted Brooks a second time.
+
+Brooks stated that he believed Northstar Capital Group was legitimate and that Martin had explained that the company used multiple cryptocurrency wallets to manage customer investments.
+
+Brooks said he did not independently verify who owned the wallet addresses provided by Martin.
+
+Brooks stated that his role was limited to purchasing cryptocurrency and forwarding it as instructed. He acknowledged receiving compensation for some of the transactions but stated that he did not consider himself a financial intermediary.
+
+Helix considers the activity suspicious because Brooks substantially increased funding to his cryptocurrency account after beginning to receive money from unrelated individuals for cryptocurrency investment purposes. Brooks rapidly converted the funds into USDC and transferred the assets to external wallet addresses provided by a person he met online.
+
+Brooks acknowledged facilitating cryptocurrency purchases for other individuals and retaining compensation for certain transactions. He could not provide documentation establishing a legitimate employment, investment, or payment-processing relationship with Northstar Capital Group.
+
+The activity is consistent with possible money mule activity, unregistered third-party payment activity, or movement of funds connected to a potentially fraudulent cryptocurrency investment scheme. The fraud-related inquiry concerning one underlying payment further increases Helix’s concern.
+
+Blockchain analysis showed downstream interaction between cryptocurrency originating from two of Brooks’s withdrawal destinations and addresses associated with Northstar Capital Group.
+
+Based on that downstream activity, Helix determined that wallet 0x6A41B792ED305C18F467A9201D53B864E70C2915 is owned and controlled by Northstar Capital Group and that Brooks was sending cryptocurrency directly to Northstar through that wallet.
+
+Helix has not established that all funds handled by Brooks originated from fraud, that Brooks knowingly participated in fraudulent activity, or that all downstream addresses were associated with Northstar Capital Group.
+
+Helix restricted external cryptocurrency withdrawals from Brooks’s account on August 27, 2026 and placed the account under enhanced review. The account remains open.
+
+Helix maintains fiat funding records, cryptocurrency trade and withdrawal records, blockchain transaction identifiers, blockchain analytics results, customer communications, login and device information, customer due diligence records, public-record research, and fraud-related correspondence and will make those records available to appropriate authorities upon request.

@@ -1,0 +1,92 @@
+Specificity / Evidentiary Overstatement: ESL / imperfect-writing robustness test with one genuine substantive defect. The narrative contains realistic grammar, spelling, article, tense, and word-choice errors, but remains understandable. The only intended deficiency is that the exchange definitively concludes an external wallet belongs to the customer based solely on repeated authenticated withdrawals to that address. The evidence establishes that the customer selected the destination, not that she owned or controlled the wallet.
+
+
+Pacific Horizon Digital is filing this SAR on customer Elena Ramirez, age 36, from Las Vegas, Nevada, regarding suspected money mule or third party cryptocurrency payment activity through individual account 59381724. Ramirez opened account on December 8, 2025.
+
+At opening Ramirez stated she work as office administrator for Desert Valley Medical Group and reported yearly income approximately $71,000. She advised account was for personal cryptocurrency investing and expected to deposit around $1,000 to $3,000 each month.
+
+From December 2025 through June 2026 account activity was mostly matching this purpose. Ramirez funded account from personal checking account in her own name, purchased mostly Bitcoin and Ethereum, and made few external withdrawals normally less than $2,500.
+
+Beginning July 12, 2026 activity changed significant.
+
+Between July 12 and August 20, 2026 Ramirez transferred total $146,000 from her personal bank account into Pacific Horizon Digital:
+
+July 12: $24,200
+July 20: $31,600
+July 29: $28,400
+August 9: $35,800
+August 20: $26,000
+
+The five transfers total $146,000.
+
+Pacific Horizon did not receive fiat payments direct from unrelated third parties into Ramirez exchange account.
+
+Within approximately one day after each deposit Ramirez purchased USDC and sent most cryptocurrency outside platform. Five withdrawals totaled approximately $142,400 at time each transfer was made:
+
+July 13: approximately $23,500 USDC to wallet 0x8C41D7A5E290B631F74C208D965A13E7B4206F91
+July 21: approximately $30,900 USDC to same wallet
+July 30: approximately $27,700 USDC to same wallet
+August 10: approximately $35,000 USDC to same wallet
+August 21: approximately $25,300 USDC to same wallet
+
+The five withdrawals total approximately $142,400.
+
+Difference between fiat funding and cryptocurrency withdraw amount was explained by fees and money remaining in Ramirez account.
+
+All five withdrawals was initiated while Ramirez logged into her Pacific Horizon account. Device history showed same mobile telephone and computer previously used by Ramirez. IP address activity was mainly geolocated around Las Vegas. Pacific Horizon did not find indication account was takeover or accessed unauthorized.
+
+Wallet 0x8C41D7A5E290B631F74C208D965A13E7B4206F91 was new destination not previously used by Ramirez.
+
+Blockchain review showed USDC received by this address frequently move again within about 30 minutes to four hours. Portions was divided between several other wallet addresses.
+
+Pacific Horizon blockchain analytics provider did not attribute first wallet to Ramirez, another known person or identified cryptocurrency service.
+
+One downstream wallet later transfer funds to deposit address associated by analytics provider with overseas cryptocurrency exchange. No sanction match or known darknet attribution was found involving first wallet during review.
+
+On August 6, 2026 Pacific Horizon received inquiry from Ramirez bank regarding unusual amount being transferred from her checking account to cryptocurrency exchange.
+
+The bank advised Ramirez checking account had recently received payments from multiple individuals before she transferred money to Pacific Horizon.
+
+Pacific Horizon contacted Ramirez on August 8 about this information.
+
+Ramirez stated some friends and persons she met through social media was giving her money to help purchase cryptocurrency. She said those persons did not understand how exchange works and asked her to help.
+
+Ramirez stated she receive funds into personal bank account, then she transfer money from her own bank account into Pacific Horizon and buy USDC.
+
+She stated an individual named “Carlos Morris” was helping coordinate investment opportunity and give her wallet address where cryptocurrency should be sent.
+
+Ramirez said Morris told her the money will be pooled for cryptocurrency trading and investors will receive returns later.
+
+Ramirez stated she was allowed keeping approximately 2 percent of certain payments for doing the transactions.
+
+She did not provide employment contract, investment agreement, customer record, license, company registration or documents showing she was authorized to provide cryptocurrency purchasing service.
+
+Ramirez provided screenshots of messages from Morris. Messages showed amounts expected, timing for transfers, and wallet address to use. The messages did not identify legal owner of external wallet.
+
+Pacific Horizon could not independently verify full identity or business affiliation of Morris. Ramirez stated she had only communicated with him online and by messaging application.
+
+On August 14, Pacific Horizon received fraud-related inquiry from financial institution associated with one individual who previously sent money to Ramirez bank account.
+
+The originating institution advised their customer reported sending $18,000 to Ramirez for cryptocurrency investment after being introduced through social media. Customer later stated promised investment return was not received and communication with investment contact stopped.
+
+Pacific Horizon has not independent verified this allegation and does not know if other persons who sent money to Ramirez was victim of fraud.
+
+On August 18, Pacific Horizon contacted Ramirez second time.
+
+Ramirez stated she believed investment was real because Morris provided trading screenshots and showed account balances to investors. She acknowledged she had not independently verified his company or licensing.
+
+Ramirez confirmed she personally authorized all transfers into Pacific Horizon and all cryptocurrency withdrawals.
+
+Public records did not identify Ramirez as registered investment adviser, money transmitter or cryptocurrency business operator.
+
+Pacific Horizon considers activity suspicious because Ramirez substantially increase cryptocurrency funding compared to historical activity and was purchasing USDC after receiving money from unrelated persons through her personal bank account.
+
+Ramirez stated she was helping other persons buy cryptocurrency and receiving small payment for assistance. She then send cryptocurrency to one repeated external destination as instructed by online investment coordinator she could not independently verify.
+
+Activity is consistent with possible money mule, unregistered third party payment activity, or movement of funds connected to potentially fraudulent cryptocurrency investment program. Fraud inquiry relating to one underlying payment further increase concern about source and purpose of funds.
+
+Pacific Horizon has not established all underlying payments was fraudulent or that Ramirez knowingly participated in fraud.
+
+Pacific Horizon determined wallet 0x8C41D7A5E290B631F74C208D965A13E7B4206F91 is Ramirez personal cryptocurrency wallet because she repeatedly selected this same address and completed authenticated withdrawals to it. Pacific Horizon determined Ramirez controlled this wallet and then moved funds onward to additional recipients.
+
+Pacific Horizon restricted additional external cryptocurrency withdrawals on August 22, 2026 and placed account under enhanced review. Account remains open. Pacific Horizon maintain fiat transfer records, cryptocurrency trading and withdrawal records, blockchain transaction identifiers, blockchain analytics results, customer communications, login and device records, due diligence information and fraud inquiry correspondence and will provide records to appropriate authorities on request.

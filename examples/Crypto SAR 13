@@ -1,0 +1,62 @@
+Specificity / Evidentiary Overstatement: The narrative treats an external cryptocurrency address as a wallet owned and controlled by the customer solely because the customer selected it as a withdrawal destination. The exchange can establish that the customer authorized the withdrawal to that address, but the narrative does not contain evidence establishing ownership or control of the external wallet.
+
+
+Canyon Digital Assets is filing this SAR on customer Melissa Grant, age 34, of Austin, Texas, regarding suspected movement of possible third-party fraud proceeds through cryptocurrency account 84510729. Grant opened the account on November 3, 2025. At onboarding, Grant identified her occupation as a marketing consultant, reported annual income of approximately $92,000, and stated that the account would be used for personal cryptocurrency investment.
+
+From November 2025 through June 2026, Grant funded the account primarily from a checking account held in her own name. Monthly fiat deposits generally ranged from $1,500 to $5,000. Her activity consisted primarily of purchases of Bitcoin and Ethereum, with occasional external cryptocurrency withdrawals below $3,000.
+
+Beginning July 18, 2026, Grant’s activity increased substantially.
+
+Between July 18 and August 21, 2026, Grant received five incoming fiat transfers totaling $121,500 from her personal checking account:
+
+July 18: $22,000
+July 25: $27,500
+August 2: $19,000
+August 11: $24,000
+August 21: $29,000
+
+Canyon identified no direct third-party fiat funding into Grant’s exchange account during the review period.
+
+Within 24 hours of each deposit, Grant purchased USDC and initiated an external cryptocurrency withdrawal. The five withdrawals totaled approximately $117,800 at the time of transfer:
+
+July 18: approximately $21,300 in USDC to wallet 0x4D71A8C29B560F318E6724A1D0539B7C86FE2140.
+July 25: approximately $26,600 in USDC to the same wallet.
+August 2: approximately $18,400 in USDC to the same wallet.
+August 11: approximately $23,200 in USDC to the same wallet.
+August 21: approximately $28,300 in USDC to the same wallet.
+
+The difference between fiat deposited and cryptocurrency withdrawn was attributable to trading costs and balances remaining in Grant’s Canyon account.
+
+Grant initiated all five withdrawals while authenticated to her Canyon account. Login records showed devices previously associated with Grant and IP addresses primarily geolocating to the Austin metropolitan area. Canyon identified no indicators of unauthorized access or account takeover.
+
+Wallet 0x4D71A8C29B560F318E6724A1D0539B7C86FE2140 had not previously appeared as a withdrawal destination in Grant’s account history.
+
+Blockchain analysis showed that cryptocurrency received by the wallet was frequently moved again within approximately one hour of receipt. Portions of four of the five withdrawals were subsequently distributed to multiple additional addresses.
+
+Canyon’s blockchain analytics provider did not attribute wallet 0x4D71A8C29B560F318E6724A1D0539B7C86FE2140 to Grant, another identified individual, or a known cryptocurrency service.
+
+Two downstream addresses were associated by Canyon’s blockchain analytics provider with cryptocurrency investment platforms that had previously generated fraud-related risk alerts. Canyon treats those analytics designations as risk indicators and has not independently established that the downstream addresses are controlled by persons engaged in fraudulent activity.
+
+On August 15, 2026, Canyon received an inquiry from Grant’s bank concerning the recent transfers into her cryptocurrency account. The bank advised that Grant’s personal checking account had recently received multiple incoming payments from individuals who stated that funds were being provided for cryptocurrency investment.
+
+Canyon subsequently reviewed Grant’s activity for possible third-party investment or intermediary activity.
+
+On August 18, 2026, Canyon contacted Grant regarding the increase in fiat funding and repeated withdrawals to the same external address. Grant stated that she had begun helping several acquaintances purchase cryptocurrency because they were unfamiliar with digital assets.
+
+Grant stated that some individuals sent funds to her personal bank account. She then transferred funds from her bank account into Canyon, purchased USDC, and initiated external cryptocurrency withdrawals.
+
+Grant stated that she personally authorized the withdrawals and entered the destination address into her Canyon account. She described the transfers as part of a private investment arrangement involving the individuals who had provided funds.
+
+Grant did not provide investment agreements, customer records, licensing information, transaction instructions, external wallet records, or documentation identifying the owner or controller of the withdrawal destination.
+
+Grant stated that she retained approximately 3 percent of certain incoming payments as compensation for assisting with the transactions.
+
+Canyon identified no registration or business entity associated with Grant indicating that she operated a cryptocurrency brokerage, investment advisory business, or money transmission service.
+
+Canyon considers the activity suspicious because Grant substantially increased her cryptocurrency purchases, repeatedly converted fiat into USDC, and rapidly transferred the assets to a newly used external wallet. Grant stated that the activity was conducted in connection with funds received from other individuals and that she retained compensation for facilitating certain transactions.
+
+The activity is consistent with possible unregistered intermediary or money mule activity and possible movement of third-party funds. The rapid onward movement from the withdrawal destination and downstream exposure to addresses associated with prior fraud-related risk alerts further increase Canyon’s concern regarding the purpose and ultimate destination of the funds.
+
+Canyon determined that wallet 0x4D71A8C29B560F318E6724A1D0539B7C86FE2140 is Grant’s personal cryptocurrency wallet because she repeatedly initiated authenticated withdrawals to the same address. Canyon further determined that Grant used her personal wallet to distribute the cryptocurrency to additional recipients involved in the suspected activity.
+
+Canyon restricted additional external cryptocurrency withdrawals from Grant’s account on August 22, 2026 and placed the account under enhanced review. The account remains open. Canyon maintains fiat funding records, cryptocurrency trade and withdrawal records, blockchain transaction identifiers, blockchain analytics results, login and device records, customer communications, customer due diligence records, and related investigative materials and will make those records available to appropriate authorities upon request.

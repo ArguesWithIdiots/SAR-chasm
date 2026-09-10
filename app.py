@@ -276,7 +276,7 @@ class AppHandler(BaseHTTPRequestHandler):
             if len(narrative) < MIN_NARRATIVE_CHARS:
                 raise AppError(f"Enter at least {MIN_NARRATIVE_CHARS} characters for a meaningful review.")
             if len(narrative) > MAX_NARRATIVE_CHARS:
-                raise AppError(f"Keep the narrative under {MAX_NARRATIVE_CHARS:,} characters.")
+                raise AppError(f"Keep the narrative at or below {MAX_NARRATIVE_CHARS:,} characters.")
             if payload.get("synthetic_data_confirmed") is not True:
                 raise AppError("Confirm that the narrative is fabricated before continuing.")
             scorecard = call_openai(narrative)

@@ -12,6 +12,8 @@ Paste in a fabricated SAR narrative and the tool reviews it across five categori
 
 It returns a structured scorecard with a pass or flag for each category and explains what it found.
 
+Version 0.2 also adds dark mode, pass/flag totals, copyable reviews, clearer input guidance, a keyboard shortcut, and a character counter that tells you exactly how far a draft exceeds the 20,000-character submission limit instead of helpfully refusing to let you paste it.
+
 It does not decide whether a SAR should be filed. I am not giving a language model that job. Everyone can relax.
 
 ## Why Does This Exist?
@@ -36,20 +38,40 @@ I wanted to see whether I could turn the way I review narratives into a repeatab
 
 That last one matters. A QA tool that always finds something wrong is not thorough. It is annoying.
 
-## Where Is This Going?
+## What Changed in v0.2?
 
-Version 0.1 proves the basic idea. A narrative goes in, the rubric gets applied, and a scorecard comes back without the app storing a local history of everything you submitted.
+Version 0.1 proved that a narrative could go in, the rubric could be applied, and a scorecard could come back without the app building a local archive of everything submitted.
+
+Version 0.2 is mostly about making the judgment less brittle.
+
+The rubric now does a better job of:
+
+- Checking whether conclusions are actually supported by the evidence presented
+- Requiring enough customer-profile context when the narrative relies on a profile mismatch
+- Evaluating every material typology independently instead of letting one plausible theory hide a bad one
+- Distinguishing indirect blockchain exposure from direct interaction
+- Reconciling stated totals, subtotals, counts, percentages, and chronology against listed transactions
+- Treating embedded prompts, quoted instructions, document text, and customer communications as untrusted narrative content
+- Keeping the category results, summary, and overall status from disagreeing with each other
+
+That sounds obvious. So does checking whether six listed transactions add up to the total printed directly above them. This is why regression testing exists.
+
+The interface got some attention too. Dark mode respects the operating-system preference until you choose one, and then remembers that choice. Reviews now show pass/flag totals, can be copied as plain text, and can be cleared through an obvious “Review another narrative” action. The Analyze button explains why it is disabled, `Ctrl/Cmd + Enter` works when the draft is ready, and drafts over 20,000 characters remain editable while submission stays blocked.
+
+## Where Is This Going?
 
 The end goal is to turn experienced SAR narrative QA judgment into a consistent, explainable tool. Not replace investigators. Just make preventable drafting failures harder to miss.
 
 I want it to catch material problems, explain exactly why they matter, and help fix them without inventing facts. A human reviewer should always be able to see what rule fired, disagree with it, and change it.
 
-The current test set has ten fabricated narratives. Some have obvious problems. Some have subtle problems. Some are clean and exist mainly to make sure the checker can leave well enough alone.
+The v0.2 live regression set covers 20 numbered scenarios, with the twentieth split into three variants. It includes ordinary SAR drafting defects, crypto transaction flows, unsupported attribution, overlapping rubric categories, long narratives, arithmetic mismatches, clean controls, and adversarial text embedded inside customer-provided material.
+
+Those scenarios were run against the actual review model, not just waved at a mocked response and pronounced healthy. When a result exposed a rubric problem, the rubric was changed and the affected narrative was run again unchanged. Previously passing sentinels were also rerun after material rubric changes to make sure fixing one judgment did not quietly break three others. All 20 scenarios, including the three Test 20 variants, passed the final regression round.
 
 Next steps:
 
-- Turn those ten narratives into an actual automated regression suite
-- Add more SAR types and harder edge cases
+- Turn the live narrative set into a repeatable automated evaluation harness
+- Add more SAR types and even less cooperative edge cases
 - Compare models, rubric changes, accuracy, and API cost
 - Split substantiation from specificity if it keeps earning its own category
 - Tie each flag to the exact part of the narrative that caused it
@@ -159,7 +181,7 @@ The QA rubric lives in [config/rubric.md](config/rubric.md).
 
 The structured response schema lives in [config/scorecard.schema.json](config/scorecard.schema.json).
 
-The fabricated regression narratives live in [`examples/`](examples/).
+The fabricated regression narratives live in [`examples/`](examples/). The numbered SAR and crypto scenarios are the live model regression set; Test 20 has A, B, and C variants.
 
 Run the unit tests.
 
@@ -175,7 +197,9 @@ Windows:
 py -m unittest discover -s tests -v
 ```
 
-The unit tests mock the API and do not cost anything. Running the narratives through the actual model uses API tokens. Mocking the model’s judgment and declaring victory would defeat the entire point.
+The unit tests mock the API and do not cost anything. They cover request handling, response validation, rubric safeguards, and interface requirements. Running the regression narratives through the actual model uses API tokens.
+
+Both matter. Unit tests tell me the plumbing and explicit safeguards are still there. Live regression testing tells me whether the evaluator applies them correctly. Mocking the model’s judgment and declaring victory would defeat the entire point.
 
 ## Data Flow
 

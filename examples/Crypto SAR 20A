@@ -1,0 +1,73 @@
+Specificity / Unsupported Baseline Comparison: This is a paraphrase/generalization regression of the earlier customer-profile defect. The narrative provides detailed suspicious activity but later relies on the assertion that the transactions are inconsistent with the customer’s known profile without stating the relevant occupation, expected account use, income, business activity, or other baseline needed to support that comparison. No other material deficiency is intended.
+
+Simulated SAR Narrative
+
+Commonwealth Trust Bank is filing this SAR on customer Rachel Mendoza, age 35, of Richmond, Virginia, regarding suspected money mule activity and possible movement of fraud proceeds through personal checking account 27480613. Mendoza opened the account on August 22, 2025.
+
+From May 2026 through July 2026, the account showed limited transaction activity consisting primarily of recurring deposits, debit-card purchases, electronic bill payments, and transfers to other accounts held by Mendoza. Commonwealth identified no significant incoming payments from unrelated businesses during that period.
+
+Beginning August 4, 2026, the account received a series of ACH credits from commercial entities that had not previously transacted with Mendoza.
+
+From August 4 through August 29, 2026, Mendoza received seven incoming ACH credits totaling $188,900:
+
+August 4: $24,800 from Red Oak Dental Supply Inc.
+August 7: $31,500 from Brighton Property Group LLC.
+August 11: $27,400 from Valley Mechanical Services Inc.
+August 15: $36,200 from Eastlake Office Products LLC.
+August 20: $22,600 from Mason Engineering Partners Inc.
+August 24: $29,900 from Harbor Medical Systems LLC.
+August 29: $16,500 from Westbridge Commercial Interiors LLC.
+
+The payment descriptions included “invoice,” “vendor payment,” “services,” “project payment,” and “consulting.”
+
+Commonwealth identified no apparent ownership or family relationship between Mendoza and the seven originating businesses through available customer records and public-record research.
+
+Within one to three business days of receiving the incoming payments, Mendoza initiated five outgoing domestic wires totaling $171,200:
+
+August 5: $44,500 to Meridian Processing Group LLC at a financial institution in Delaware.
+August 12: $38,200 to Crestline Business Solutions LLC at a financial institution in Florida.
+August 17: $29,700 to Meridian Processing Group LLC.
+August 25: $33,800 to Horizon Vendor Services LLC at a financial institution in Texas.
+August 30: $25,000 to Crestline Business Solutions LLC.
+
+The five outgoing wires totaled $171,200.
+
+The remaining funds were used for ordinary account activity, transfers, and balances remaining in the account. Commonwealth did not identify significant cash deposits, cash withdrawals, international wires, or cryptocurrency transactions associated with the reviewed activity.
+
+The wires were initiated through Commonwealth’s online banking platform. Login records showed devices previously associated with Mendoza and IP addresses primarily geolocating to the Richmond metropolitan area. Commonwealth identified no indicators of unauthorized account access.
+
+Public-record research showed Meridian Processing Group LLC was formed in Delaware in April 2026, Crestline Business Solutions LLC was formed in Florida in May 2026, and Horizon Vendor Services LLC was formed in Texas in March 2026. Each entity remained listed as active at the time of review.
+
+Commonwealth identified no apparent ownership relationship between Mendoza and the three outgoing beneficiaries.
+
+On August 18, 2026, Commonwealth contacted Mendoza regarding the new commercial payment activity.
+
+Mendoza stated that she had recently begun working part time for an individual named “Kevin Shaw,” whom she met through an online job advertisement. She stated that Shaw described the work as payment administration for businesses that needed assistance processing customer and vendor payments.
+
+Mendoza said Shaw notified her when payments would arrive and instructed her where to send the funds after receipt.
+
+Mendoza stated that she was permitted to retain approximately 5 percent of certain payments as compensation.
+
+She did not provide a formal employment agreement, tax documentation, employer registration information, physical office address, or independently verifiable business contact information for Shaw.
+
+Mendoza provided screenshots of messages exchanged with Shaw. The messages contained expected incoming payment amounts and instructions identifying the accounts to which funds should subsequently be wired.
+
+On August 26, 2026, Commonwealth received a fraud-related inquiry from the financial institution that originated the August 20 $22,600 ACH credit from Mason Engineering Partners Inc.
+
+The originating institution advised that its customer reported receiving altered vendor-payment instructions after an employee email account was compromised. According to the inquiry, Mason Engineering intended to pay an established supplier but was directed to send the payment to Mendoza’s account.
+
+Commonwealth has not independently verified the originating customer’s allegation and has not received fraud notifications concerning the other six incoming ACH credits.
+
+On August 27, 2026, Commonwealth contacted Mendoza again. Mendoza stated that she did not personally know the businesses sending funds into her account and believed Shaw was coordinating the transactions with those companies.
+
+Mendoza said she believed the arrangement was legitimate because Shaw generally told her the amount of an incoming payment before it arrived. She stated that she had never met Shaw in person.
+
+Commonwealth considers the activity suspicious because Mendoza received substantial payments from multiple previously unrelated businesses and rapidly forwarded most of the funds to recently established third-party companies at the direction of an individual she met online.
+
+Mendoza stated that she retained a portion of certain payments as compensation and was unable to provide documentation establishing a verifiable employment or payment-processing relationship.
+
+The reported business-email-compromise incident involving one incoming payment further increases Commonwealth’s concern that Mendoza’s account may be functioning as a money mule or intermediary for possible fraud proceeds. Commonwealth has not established that all incoming payments were fraudulent or that Mendoza knowingly participated in an underlying fraud scheme.
+
+The activity is also inconsistent with Mendoza’s known customer profile and expected use of the account.
+
+Commonwealth restricted additional outgoing wire activity on August 31, 2026 and placed the account under enhanced monitoring. The account remains open. Commonwealth maintains account statements, ACH and wire records, login and device information, customer communications, public-record research, customer due diligence records, and fraud-related correspondence and will make those records available to appropriate authorities upon request.

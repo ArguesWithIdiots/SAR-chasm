@@ -1,0 +1,57 @@
+No deficiency - clean crypto SAR
+
+Northstar Digital Markets is filing this SAR on customer Sarah Nguyen, age 37, of Portland, Oregon, regarding suspected money mule activity and possible movement of fraud proceeds through her individual cryptocurrency account 78421936. Nguyen opened the account on February 9, 2025. At onboarding, Nguyen identified her occupation as a software engineer, reported annual income of approximately $128,000, and stated that the account would be used for personal cryptocurrency investment.
+
+From February 2025 through July 2026, Nguyen’s activity was generally consistent with that profile. She funded the account primarily through a personal checking account held in her own name, typically deposited between $1,000 and $4,000 per month, and purchased Bitcoin and Ethereum. Historical review showed limited withdrawals to external cryptocurrency addresses and no prior receipt of fiat funds from unrelated third parties.
+
+Between August 2, 2026, and August 24, 2026, Nguyen’s account received six incoming fiat transfers totaling $175,000 from six previously unseen senders:
+
+August 2: $28,000 from Lumina Consulting LLC.
+August 6: $31,500 from Harper Media LLC.
+August 11: $24,000 from Raymond Cole.
+August 15: $27,500 from Stonebrook Services LLC.
+August 19: $35,000 from Ellen Price.
+August 24: $29,000 from Apex Strategy Group LLC.
+
+The incoming transfers originated from financial institutions in California, Texas, Illinois, Florida, Washington, and New York. Northstar identified no apparent ownership, employment, or family relationship between Nguyen and the six senders through available customer information, account records, and public-record research.
+
+Within approximately six hours of each incoming fiat transfer, Nguyen purchased U.S. dollar-pegged cryptocurrency and initiated an external blockchain withdrawal. The six withdrawals totaled approximately $172,000, representing approximately 98 percent of the incoming fiat activity.
+
+The transactions were:
+
+August 2: Nguyen purchased approximately $27,700 in USDC and withdrew approximately $27,500 in USDC to external wallet 0x7A4F18B2C963D5487610E5B2015A870DE419C921.
+August 6: Nguyen purchased approximately $31,200 in USDT and withdrew approximately $31,000 in USDT to external wallet 0x91D73C58A6412E30F7B954C108E34A7625FD0B46.
+August 11: Nguyen purchased approximately $23,700 in USDC and withdrew approximately $23,500 in USDC to wallet 0x7A4F18B2C963D5487610E5B2015A870DE419C921.
+August 15: Nguyen purchased approximately $27,200 in USDT and withdrew approximately $27,000 in USDT to external wallet 0x4C29E8715B6D304FA98217C6530D4E68A9172F35.
+August 19: Nguyen purchased approximately $34,600 in USDC and withdrew approximately $34,400 in USDC to wallet 0x91D73C58A6412E30F7B954C108E34A7625FD0B46.
+August 24: Nguyen purchased approximately $28,800 in USDT and withdrew approximately $28,600 in USDT to wallet 0x4C29E8715B6D304FA98217C6530D4E68A9172F35.
+
+The difference between fiat received and cryptocurrency withdrawn was attributable to cryptocurrency retained in Nguyen’s account, trading costs, and available fiat balance.
+
+The activity was conducted through Northstar’s online platform. Login records during the review period primarily showed IP addresses geolocating to the Portland, Oregon metropolitan area and devices previously associated with Nguyen’s account. Northstar did not identify evidence of an account takeover during the review period.
+
+Blockchain analysis showed that the three external destination addresses were newly observed in Nguyen’s account history. Funds sent to wallets 0x7A4F18B2C963D5487610E5B2015A870DE419C921 and 0x91D73C58A6412E30F7B954C108E34A7625FD0B46 were subsequently forwarded, in several instances within approximately 30 minutes, to a common downstream address.
+
+Northstar’s blockchain analytics provider identified that downstream address as having direct exposure to addresses previously associated with suspected online investment scam activity. Northstar treats the analytics designation as a risk indicator and has not independently established that the downstream address is controlled by a criminal actor.
+
+Northstar also cannot confirm whether Nguyen owns or controls the three external wallet addresses to which she initiated withdrawals. The addresses are described in this narrative only as destinations selected through Nguyen’s authenticated Northstar account.
+
+On August 21, 2026, Northstar received a fraud-related inquiry from the financial institution that originated the August 19 $35,000 transfer from Ellen Price. The originating institution advised that Price reported sending the funds after communicating online with an individual who represented that the money would be invested in cryptocurrency on her behalf. According to the inquiry, Price subsequently became unable to contact the individual and disputed the transfer.
+
+Northstar has not independently verified Price’s allegation and has not received fraud notifications concerning the remaining five incoming transfers.
+
+On August 22, 2026, Northstar contacted Nguyen regarding the third-party funding and rapid cryptocurrency withdrawals. Nguyen stated that several friends and online acquaintances had asked her to purchase cryptocurrency for them because they were unfamiliar with cryptocurrency exchanges or had difficulty opening their own accounts.
+
+Nguyen stated that she received instructions from the individuals regarding how much cryptocurrency to purchase and where to send it. She said she retained between 1 and 3 percent of certain transfers for her assistance but did not consider the activity a business.
+
+Nguyen did not provide written agreements, invoices, tax records, or other documentation supporting a formal business relationship with the senders. She also did not provide documentation demonstrating that the external wallet addresses were controlled by the individuals who sent the fiat funds.
+
+Public-record review identified Lumina Consulting LLC, Harper Media LLC, Stonebrook Services LLC, and Apex Strategy Group LLC as active business entities. Northstar identified no apparent ownership or employment relationship between Nguyen and those companies. No sanctions matches were identified for Nguyen or the named fiat senders.
+
+Northstar considers the activity suspicious because Nguyen’s account received $175,000 from six previously unrelated third parties during a 23-day period, representing a substantial change from her historical personal investment activity. Nguyen rapidly converted approximately 98 percent of those funds into stable-value cryptocurrency and withdrew the cryptocurrency to external wallets selected through her account.
+
+Nguyen stated that she was purchasing and transferring cryptocurrency on behalf of other individuals and retaining a portion of certain transfers as compensation. The fraud inquiry associated with one incoming transfer, combined with the rapid movement of third-party funds and downstream blockchain exposure to addresses associated with suspected investment-scam activity, increases Northstar’s concern that Nguyen’s account may be functioning as a money mule or intermediary for the movement of possible fraud proceeds.
+
+Northstar has not established that all incoming transfers were fraudulent, that Nguyen knowingly participated in an underlying fraud scheme, that Nguyen owns or controls the external destination wallets, or that the downstream blockchain addresses are controlled by criminal actors.
+
+Northstar restricted additional third-party fiat funding and external cryptocurrency withdrawals from Nguyen’s account on August 25, 2026 and placed the account under enhanced review. The account remains open. Northstar maintains fiat transfer records, cryptocurrency trade and withdrawal records, blockchain transaction identifiers, customer communications, login and device records, blockchain analytics results, customer due diligence records, public-record research, and correspondence from the originating financial institution and will make those records available to appropriate authorities upon request.

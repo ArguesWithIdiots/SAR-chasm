@@ -13,9 +13,15 @@
         <span class="brand-mark" aria-hidden="true">SC</span>
         <span>SAR Chasm</span>
       </a>
-      <div class="status" id="apiStatus" aria-live="polite">
-        <span class="status-dot"></span>
-        Checking local setup…
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+          <span class="theme-icon" aria-hidden="true">◐</span>
+          <span id="themeLabel">Dark mode</span>
+        </button>
+        <div class="status" id="apiStatus" aria-live="polite">
+          <span class="status-dot"></span>
+          Checking local setup…
+        </div>
       </div>
     </header>
 
@@ -56,7 +62,6 @@
           <label class="field-label" for="narrative">Draft SAR narrative</label>
           <textarea
             id="narrative"
-            maxlength="20000"
             minlength="80"
             spellcheck="true"
             placeholder="Paste a fabricated SAR narrative here…"
@@ -64,7 +69,7 @@
 
           <div class="input-meta">
             <button class="example-button" id="exampleButton" type="button">Load synthetic example</button>
-            <span id="characterCount">0 / 20,000 characters</span>
+            <span id="characterCount" aria-live="polite">0 / 20,000 characters</span>
           </div>
 
           <div class="sensitive-warning" id="sensitiveWarning" hidden>
@@ -80,8 +85,11 @@
             <span>Analyze narrative</span>
             <span aria-hidden="true">→</span>
           </button>
+          <p class="input-guidance" id="inputGuidance" aria-live="polite">
+            Enter at least 80 characters to begin.
+          </p>
           <p class="submission-note">
-            Text is sent directly from this local server to OpenAI and is subject to your OpenAI API data controls.
+            Press Ctrl/Cmd + Enter to analyze. Text is sent directly from this local server to OpenAI and is subject to your OpenAI API data controls.
           </p>
         </article>
 
@@ -115,10 +123,18 @@
                 <p class="step-label">02 / Scorecard</p>
                 <h2>Quality review</h2>
               </div>
-              <span class="overall-badge" id="overallBadge"></span>
+              <div class="scorecard-status">
+                <span class="score-count" id="scoreCount"></span>
+                <span class="overall-badge" id="overallBadge"></span>
+              </div>
             </div>
             <p class="summary" id="summary"></p>
             <div class="category-list" id="categoryList"></div>
+            <div class="result-actions">
+              <button class="secondary-button" id="copyButton" type="button">Copy review</button>
+              <button class="secondary-button" id="reviewAnotherButton" type="button">Review another narrative</button>
+            </div>
+            <p class="copy-status" id="copyStatus" aria-live="polite"></p>
             <p class="result-disclaimer" id="resultDisclaimer"></p>
           </div>
         </article>
@@ -127,7 +143,7 @@
 
     <footer>
       <p>Drafting aid only—not legal advice, compliance certification, examiner approval, or a filing determination.</p>
-      <p>v0.1 · Local demonstration</p>
+      <p>v0.2 · Local demonstration</p>
     </footer>
 
     <script src="/app.js" defer></script>

@@ -1,0 +1,62 @@
+Typology Language / Evidentiary Overstatement: The narrative incorrectly states that the customer directly transacted with an illicit cryptocurrency address. The blockchain evidence only shows indirect exposure through intermediary wallets, so the suspicious connection should be described as indirect rather than direct.
+
+
+Summit Digital Exchange is filing this SAR on customer Daniel Ortiz, age 39, of Denver, Colorado, regarding suspected laundering of possible illicit proceeds through cryptocurrency account 66290418. Ortiz opened the account on January 17, 2026. At onboarding, Ortiz identified his occupation as an independent software consultant, reported annual income of approximately $145,000, and stated that the account would be used for personal cryptocurrency investment.
+
+From January through June 2026, Ortiz primarily funded the account through a checking account held in his own name. Monthly fiat deposits generally ranged from $2,000 to $6,000. Ortiz purchased Bitcoin and Ethereum and occasionally withdrew cryptocurrency to external wallet addresses. No prior blockchain activity associated with Ortiz’s account showed exposure to services identified by Summit’s blockchain analytics provider as illicit.
+
+Beginning July 14, 2026, Ortiz’s activity increased substantially.
+
+Between July 14 and August 22, 2026, Ortiz deposited $148,000 in fiat currency into his Summit account through four transfers from his personal bank account:
+
+July 14: $34,000
+July 27: $41,000
+August 8: $29,000
+August 22: $44,000
+
+Summit identified no third-party fiat funding during the review period.
+
+Within 24 hours of each deposit, Ortiz purchased Bitcoin or USDC and withdrew most of the purchased cryptocurrency to external wallet addresses.
+
+Between July 14 and August 23, 2026, Ortiz initiated four cryptocurrency withdrawals with an aggregate value of approximately $141,500 at the time of transfer:
+
+July 14: approximately $32,500 in Bitcoin to wallet bc1q7h4m2z8k3r9p6x5v1c0n4t2w8s7j9d6f3a5b2
+July 27: approximately $39,200 in USDC to wallet 0x6B84A71C20D53E984F162B730C49A15E82D611F7
+August 8: approximately $27,600 in Bitcoin to wallet bc1q2x8r5m4v9k7c3n6z1p0s8d5f2h4j7w9t6a3e1
+August 23: approximately $42,200 in USDC to wallet 0x91F6C4827B3A10E5D94268F1C730AB564D821E39
+
+The difference between fiat deposited and cryptocurrency withdrawn was attributable to cryptocurrency and fiat balances remaining in Ortiz’s account, trading costs, and changes in asset value between purchase and withdrawal.
+
+Login and device records during the review period showed activity from devices previously associated with Ortiz and IP addresses primarily geolocating to the Denver metropolitan area. Summit identified no indicators of unauthorized access or account takeover.
+
+Blockchain analysis of the July 14 Bitcoin withdrawal showed that the cryptocurrency was sent from Summit to wallet bc1q7h4m2z8k3r9p6x5v1c0n4t2w8s7j9d6f3a5b2. Approximately 40 minutes later, a portion of the funds moved from that wallet to a second external address.
+
+Approximately three hours later, the second wallet transferred a portion of the funds to a third wallet.
+
+The third wallet subsequently transferred cryptocurrency to an address identified by Summit’s blockchain analytics provider as associated with a darknet marketplace.
+
+The observed transaction path was:
+
+Ortiz’s Summit account → first external wallet → second external wallet → third external wallet → darknet-attributed address.
+
+Summit cannot confirm whether Ortiz owns or controls the first, second, or third external wallets. The first wallet is identified only as a withdrawal destination selected through Ortiz’s authenticated Summit account. The subsequent wallets were identified through blockchain transaction tracing.
+
+Blockchain analysis of the August 8 Bitcoin withdrawal showed a similar pattern. Ortiz withdrew cryptocurrency to an external wallet selected through his Summit account. Portions of those funds were subsequently transferred through two additional wallets before a portion reached an address identified by Summit’s blockchain analytics provider as associated with the same darknet marketplace.
+
+The July 27 and August 23 USDC withdrawals were sent to separate external addresses. Summit identified subsequent movement from those wallets but did not identify exposure to known illicit services during the review period.
+
+Summit treats blockchain analytics attribution as a risk indicator and has not independently verified the identity or control of the operators associated with the darknet-attributed address.
+
+On August 19, 2026, Summit contacted Ortiz regarding the increase in fiat funding and rapid external cryptocurrency withdrawals. Ortiz stated that he had increased his cryptocurrency activity because he believed market conditions presented an investment opportunity.
+
+Ortiz stated that he transferred cryptocurrency off the Summit platform to participate in private cryptocurrency investments and decentralized finance activity. He declined to identify the individuals or platforms involved and did not provide investment agreements, wallet ownership information, transaction records from external platforms, or other documentation supporting the stated activity.
+
+Ortiz confirmed that he personally authorized all four withdrawals.
+
+Summit considers the activity suspicious because Ortiz substantially increased fiat funding relative to his historical activity, rapidly converted most of the funds into cryptocurrency, and transferred the assets to external wallets with limited explanation of their ultimate purpose.
+
+Blockchain analysis further showed that portions of two Bitcoin withdrawals moved through multiple intermediary wallets before reaching addresses attributed by Summit’s blockchain analytics provider to a darknet marketplace. This downstream exposure increases Summit’s concern regarding the purpose and ultimate destination of the cryptocurrency.
+
+Summit determined that Ortiz directly transacted with a darknet marketplace through his cryptocurrency account. His repeated direct interaction with darknet-associated addresses indicates possible laundering of illicit proceeds and use of Summit’s platform to facilitate criminal transactions.
+
+Summit restricted additional external cryptocurrency withdrawals from Ortiz’s account on August 24, 2026 and placed the account under enhanced review. The account remains open. Summit maintains fiat funding records, cryptocurrency trade and withdrawal records, blockchain transaction identifiers, blockchain analytics results, login and device information, customer communications, customer due diligence records, and related investigative materials and will make those records available to appropriate authorities upon request.
